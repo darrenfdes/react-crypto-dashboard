@@ -1,11 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const cryptoApiHeaders = {
-  headers: {
-    "x-rapidapi-host": "coinranking1.p.rapidapi.com",
-    "x-rapidapi-key": "1567b88662msh02aff047ef5389bp1395b9jsn26e8271e6f12",
-  },
-};
 
 const baseUrl = "https://api.coingecko.com/api/v3";
 
