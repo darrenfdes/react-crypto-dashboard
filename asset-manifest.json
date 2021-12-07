@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-crypto-dashboard/static/css/main.e2d4aa6c.chunk.css",
+    "main.js": "/react-crypto-dashboard/static/js/main.07afd718.chunk.js",
+    "main.js.map": "/react-crypto-dashboard/static/js/main.07afd718.chunk.js.map",
+    "runtime-main.js": "/react-crypto-dashboard/static/js/runtime-main.05d053c3.js",
+    "runtime-main.js.map": "/react-crypto-dashboard/static/js/runtime-main.05d053c3.js.map",
+    "static/css/2.2b8316e7.chunk.css": "/react-crypto-dashboard/static/css/2.2b8316e7.chunk.css",
+    "static/js/2.821efad3.chunk.js": "/react-crypto-dashboard/static/js/2.821efad3.chunk.js",
+    "static/js/2.821efad3.chunk.js.map": "/react-crypto-dashboard/static/js/2.821efad3.chunk.js.map",
+    "index.html": "/react-crypto-dashboard/index.html",
+    "static/css/2.2b8316e7.chunk.css.map": "/react-crypto-dashboard/static/css/2.2b8316e7.chunk.css.map",
+    "static/css/main.e2d4aa6c.chunk.css.map": "/react-crypto-dashboard/static/css/main.e2d4aa6c.chunk.css.map",
+    "static/js/2.821efad3.chunk.js.LICENSE.txt": "/react-crypto-dashboard/static/js/2.821efad3.chunk.js.LICENSE.txt",
+    "static/media/cryptocurrency.1548aced.png": "/react-crypto-dashboard/static/media/cryptocurrency.1548aced.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05d053c3.js",
+    "static/css/2.2b8316e7.chunk.css",
+    "static/js/2.821efad3.chunk.js",
+    "static/css/main.e2d4aa6c.chunk.css",
+    "static/js/main.07afd718.chunk.js"
+  ]
+}
