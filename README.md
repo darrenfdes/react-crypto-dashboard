@@ -1,3 +1,5 @@
-#Cryptocurrency Dashboard \n
-coin data sourced from coinGecko api \n
+#Cryptocurrency Dashboard 
+
+coin data sourced from coinGecko api 
+
 news data sourced from newsapi.org api
