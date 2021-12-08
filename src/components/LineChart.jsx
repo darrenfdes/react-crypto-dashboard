@@ -30,7 +30,7 @@ const LineChart = ({
           days: timePeriod,
         },
       });
-      console.log(results.data);
+
       setCoinData(results.data.prices);
     };
     fetchData();
@@ -39,16 +39,10 @@ const LineChart = ({
   const coinPrice = [];
   const coinTimestamp = [];
 
-  console.log(coinId, timePeriod);
-  // console.log(coinHistory);
-
   for (let i = 0; i < coinData.length; i++) {
     coinPrice.push(coinData[i][1]);
     coinTimestamp.push(new Date(coinData[i][0]).toLocaleDateString());
   }
-
-  console.log("Here");
-  // console.log(coinPrice, coinTimestamp);
 
   const data = {
     labels: coinTimestamp,

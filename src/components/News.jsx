@@ -19,9 +19,6 @@ const News = ({ simplified }) => {
     count: simplified ? 10 : 100,
   });
 
-  // console.log(coinArr);
-  // console.log(isFetching);
-
   if (isFetching) {
     return <Loader />;
   }

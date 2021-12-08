@@ -30,7 +30,6 @@ const { Title, Text } = Typography;
 const { Option } = Select;
 
 const getTimeperiod = (timePeriod) => {
-  console.log(timePeriod);
   let days = "7";
   switch (timePeriod) {
     case "1h":
@@ -69,7 +68,7 @@ const getTimeperiod = (timePeriod) => {
       days = "24h";
       break;
   }
-  console.log(days);
+
   return String(days);
 };
 
@@ -81,9 +80,6 @@ function CryptoDetails() {
   //   coinId,
   //   timePeriod,
   // });
-
-  // console.log(coinHistory);
-  // console.log(coinId, getTimeperiod(timePeriod));
 
   if (isFetching) {
     return <Loader />;
@@ -149,8 +145,6 @@ function CryptoDetails() {
     },
   ];
 
-  console.log(cryptoDetails);
-
   const blockChainSites = cryptoDetails?.links.homepage.filter(
     (x) => x.trim() !== ""
   );
@@ -158,7 +152,6 @@ function CryptoDetails() {
   const gitHubLinks = cryptoDetails?.links.repos_url.github.filter(
     (x) => x.trim() !== ""
   );
-  console.log(gitHubLinks);
 
   let timeFrame = getTimeperiod(timePeriod);
 

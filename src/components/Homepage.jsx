@@ -9,16 +9,14 @@ const { Title } = Typography;
 
 function Homepage() {
   const { data, isFetching } = useGetCryptosQuery();
-  console.log(data);
+
   const globalStats = data?.data;
-  console.log(globalStats);
 
   // let sum = 0;
   // const totalMarketCap = globalStats.total_market_cap;
   // const keyArr = Object.values(totalMarketCap);
   // keyArr.map((x) => (sum += x.value));
 
-  // console.log(sum);
   if (isFetching) return "Loading...";
 
   return (
