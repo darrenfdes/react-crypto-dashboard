@@ -66,7 +66,7 @@ const getTimeperiod = (timePeriod) => {
       break;
 
     default:
-      days = "7";
+      days = "24h";
       break;
   }
   console.log(days);
@@ -75,7 +75,7 @@ const getTimeperiod = (timePeriod) => {
 
 function CryptoDetails() {
   const { coinId } = useParams();
-  const [timePeriod, setTimePeriod] = useState(7);
+  const [timePeriod, setTimePeriod] = useState("24h");
   const { data: cryptoDetails, isFetching } = useGetCryptoDetailsQuery(coinId);
   // const { data: coinHistory } = useGetCryptoHistoryQuery({
   //   coinId,
@@ -174,7 +174,7 @@ function CryptoDetails() {
         </p>
       </Col>
       <Select
-        defaultValue="7d"
+        defaultValue="24h"
         className="select-timeperiod"
         placeholder="Select Time Period"
         onChange={(value) => setTimePeriod(value)}
